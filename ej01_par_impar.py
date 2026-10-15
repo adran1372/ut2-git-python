@@ -1,5 +1,5 @@
 num = int(input("Dime un numero"))
-
+# Autor: Compañero
 if(num%2 == 0):
     print = "El numero es par"
 else:
