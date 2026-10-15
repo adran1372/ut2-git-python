@@ -1,4 +1,4 @@
-num = int(input("Hasta que numero quieres  llegar: "))
+limite = int(input("¿Hasta qué número?"))
 for i in range(1,num+1):
     if(i % 3 == 0 and i % 5 == 0):
         print("FizzBuzz")
