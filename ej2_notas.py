@@ -1,10 +1,21 @@
 nota = float(input("Dime tu calificacion: "))
 
-if(nota < 5):
-    print("Suspenso")
-elif(nota >= 5 or nota < 7):
-    print("Aprobado")
-elif(nota >=7 or nota < 9):
-    print("Notable")
+<<<<< HEAD
+if nota < 5:
+    calificacion = "Insuficiente"
+=======
+if nota < 0 or nota > 10:
+    calificacion = "Nota no válida"
+elif nota < 5:
+    calificacion = "Suspenso"
+>>>>>>> validar-nota
+elif nota < 6:
+    calificacion = "Suficiente"
+elif nota < 7:
+    calificacion = "Bien"
+elif nota < 9:
+    calificacion = "Notable"
 else:
-    print("Sobresaliente")
+    calificacion = "Sobresaliente"
+
+print(calificacion)
