@@ -1,7 +1,7 @@
 limite = int(input("¿Hasta qué número?"))
 for i in range(1, limite + 1):
     if(i % 3 == 0 and i % 5 == 0):
-        print("FizzBuzz")
+        print("¡FizzBuzz!")
         i+= 1
     elif(i % 5 == 0):
         print("Buzz")
