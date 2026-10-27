@@ -1,14 +1,12 @@
 nota = float(input("Dime tu calificacion: "))
 
-<<<<< HEAD
+
 if nota < 5:
     calificacion = "Insuficiente"
-=======
 if nota < 0 or nota > 10:
     calificacion = "Nota no válida"
 elif nota < 5:
     calificacion = "Suspenso"
->>>>>>> validar-nota
 elif nota < 6:
     calificacion = "Suficiente"
 elif nota < 7:
